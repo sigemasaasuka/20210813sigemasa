@@ -19,10 +19,11 @@ div {
   list-style: none;
 }
 
-p {
+h1{
   font-size: 50px;
   text-align: left;
-  font-weight: 400;
+  font-weight: lighter;
+
 }
 
 .item1 {
