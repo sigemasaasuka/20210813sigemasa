@@ -1,47 +1,51 @@
   h2 {
-        text-align: left;
-        color: #000080;
-    }
+  text-align: left;
+  color: #000080;
+}
 
-    .parent {
-        color: #000080;
-        display: flex;
-        justify-content: flex-end;
-        font-weight: bold;
-    }
+.parent {
+  color: #000080;
+  display: flex;
+  justify-content: flex-end; 
+  font-weight: bold;
+  text-align: right;
+}
 
-    .child {
-        width: 100px;
-        padding: 5px;
-        margin: 5px;
-    }
+.child {
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+}
 
-    .text {
-        margin-top: 300px;
-    }
+.text {
+  margin-top: 300px;
+}
 
-    p {
-        font-size: 50px;
-        text-align: left;
-        font-weight: 400;
-    }
+p {
+  font-size: 50px;
+  text-align: left;
+  font-weight: 400;
+}
 
-    .relative {
-        position: relative;
-    }
+.relative {
+  position: relative;
+}
 
-    .item1 {
-        width: 50px;
-        height: 100px;
-        position: absolute;
-        background: firstview.jpeg;
-        top: -245px;
-        left: 700px;
-    }
+.flex {
+  display: flex;
+}
 
-    .item2 {
-        width: 1050px;
-        height: 200px;
-        position: relative;
-        background: #000080;
-    }
+.item1 {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  background: firstview.jpeg;
+  top: -245px;
+  left: 700px;
+}
+
+.item2 {
+  width: 1050px;
+  height: 200px;
+  background: #000080;
+}
