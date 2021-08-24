@@ -3,12 +3,14 @@
   color: #000080;
 }
 
-.parent {
+ .parent{
   color: #000080;
-  display: flex;
   justify-content: flex-end; 
   font-weight: bold;
-  text-align: right;
+  display: flex;
+  color: #000080;
+  display: ruby;
+
 }
 
 .child {
@@ -25,6 +27,7 @@ p {
   font-size: 50px;
   text-align: left;
   font-weight: 400;
+  height: 10px;
 }
 
 .relative {
