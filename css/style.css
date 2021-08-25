@@ -5,15 +5,19 @@
 
  .parent{
   color: #000080;
-  justify-content: flex-end; 
   font-weight: bold;
-  display: flex;
+   display: flex;
   color: #000080;
-  display: ruby;
+  
+}
 
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .child {
+  justify-content: flex-end;
   width: 100px;
   padding: 5px;
   margin: 5px;
